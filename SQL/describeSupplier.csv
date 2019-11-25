@@ -1,0 +1,9 @@
+Field,Type,Null,Key,Default,Extra
+supplierName,varchar(30),NO,PRI,NULL,
+street,varchar(30),NO,,NULL,
+city,varchar(30),NO,,NULL,
+houseNumber,int(11),NO,,NULL,
+zipCode,int(5),NO,,NULL,
+email,varchar(30),NO,,NULL,
+hubZipCode,int(5),NO,,NULL,
+phoneNumber,varchar(30),NO,,NULL,

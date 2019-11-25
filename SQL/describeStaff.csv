@@ -1,0 +1,8 @@
+Field,Type,Null,Key,Default,Extra
+employeeID,varchar(30),NO,PRI,NULL,
+sinNo,int(9),NO,,NULL,
+fname,varchar(15),NO,,NULL,
+lname,varchar(15),NO,,NULL,
+hubZipCode,int(5),NO,,NULL,
+SupervisorID,varchar(30),NO,,NULL,
+position,varchar(30),NO,,NULL,

@@ -1,0 +1,3 @@
+Field,Type,Null,Key,Default,Extra
+postion,varchar(30),NO,PRI,NULL,
+salary,int(11),NO,,NULL,

@@ -1,0 +1,8 @@
+Field,Type,Null,Key,Default,Extra
+orderID,varchar(30),NO,,NULL,
+paymentStatus,tinyint(1),NO,,NULL,
+deliveryStatus,tinyint(1),NO,,NULL,
+pickupStatus,tinyint(1),NO,,NULL,
+orderDate,date,NO,,NULL,
+hubZipCode,int(5),NO,,NULL,
+username,varchar(30),NO,,NULL,

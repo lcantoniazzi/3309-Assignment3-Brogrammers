@@ -1,0 +1,5 @@
+We generated our data using generatedata.com then downloaded 
+it as an excel file and used the mySQL button in the data tab
+of excel to connect to our local instance and import the data.
+As result we didn't need to create any code for the generation
+or importation of the data.

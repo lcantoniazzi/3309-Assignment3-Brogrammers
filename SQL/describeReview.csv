@@ -1,0 +1,5 @@
+Field,Type,Null,Key,Default,Extra
+content,varchar(300),YES,,NULL,
+rating,int(1),NO,,NULL,
+username,varchar(30),NO,PRI,NULL,
+product,varchar(30),NO,PRI,NULL,

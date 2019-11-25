@@ -1,0 +1,4 @@
+Field,Type,Null,Key,Default,Extra
+OrderID,varchar(30),NO,PRI,NULL,
+product,varchar(30),NO,PRI,NULL,
+quantity,int(3),YES,,NULL,

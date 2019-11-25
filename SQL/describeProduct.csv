@@ -1,0 +1,6 @@
+Field,Type,Null,Key,Default,Extra
+productName,varchar(30),NO,PRI,NULL,
+productType,varchar(30),NO,,NULL,
+stockLevel,int(11),YES,,NULL,
+price,int(11),NO,,NULL,
+supplierName,varchar(30),YES,,NULL,

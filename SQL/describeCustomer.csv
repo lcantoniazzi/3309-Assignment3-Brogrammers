@@ -1,0 +1,6 @@
+Field,Type,Null,Key,Default,Extra
+custName,varchar(30),NO,,NULL,
+username,varchar(30),NO,PRI,NULL,
+email,varchar(30),NO,,NULL,
+hubZipCode,int(5),NO,,NULL,
+phoneNumber,varchar(30),NO,,NULL,
