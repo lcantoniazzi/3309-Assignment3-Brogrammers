@@ -1,0 +1,43 @@
+<% include partials/header.ejs %>
+<form class="prodPricex-form" action="" method="post" enctype="multipart/form-data">
+    <div class="form-group col-md-4">
+        <input type="number" class="form-control" name="price" id="price" placeholder="Max Price" required>
+    </div>
+    <button type="submit" class="btn btn-primary float-left">Search</button>
+</form>
+
+<div class="table-wrapper">
+  <% if (product.length > 0) {%>
+    <table class="table table-hovered">
+      <thead class="thead-dark">
+      <tr>
+        <th scope="col">Name</th>
+        <th scope="col">Type</th>
+        <th scope="col">Stock Level</th>
+        <th scope="col">Price</th>
+        <th scope="col">Supplier</th>
+      </tr>
+      </thead>
+      <tbody>
+      <% product.forEach((product, index) => { %>
+        <tr>
+          <td><%= product.productName %></td>
+          <td><%= product.productType %></td>
+          <td><%= product.stockLevel %></td>
+          <td>$<%= product.price %>.00</td>
+          <td><%= product.supplierName %></td>
+          <td>
+            <a href="/edit/<%= product.productName %>" target="_blank" rel="noopener" class="btn btn-sm btn-success">Edit</a>
+            <a href="/delete/<%= product.productName %>" class="btn btn-sm btn-danger">Delete</a>
+          </td>
+        </tr>
+      <% }) %>
+      </tbody>
+    </table>
+  <% } else { %>
+    <p class="text-center">No products found. Go <a href="/add" >here</a> to add products.</p>
+  <% } %>
+</div>
+</div>
+</body>
+</html>
